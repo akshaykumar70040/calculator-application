@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	This is index
+	<a href="/Calculator1/logout">Logout</a>
+
+	<a href="/Calculator1/welcome">welcome</a> Add two numbers :
+
+	<form action="/Calculator1/welcome">
+		number1 : <input name="num1" type="text" /> number2 : <input
+			name="num2" type="text" /> action <br> Add<input type="radio"
+			name="action" value="add"> Sub<input type="radio"
+			name="action" value="sub"> Multi<input type="radio"
+			name="action" value="multi"> Divide<input type="radio"
+			name="action" value="divide"> Mod<input type="radio"
+			name="action" value="mod"> <input type="submit" value="ANS" />
+	</form>
+	<hr>
+	Note: Enter all your values to add
+	<form action="/Calculator1/second">
+		Arguments : <input name="args" /> <input type="submit" value="Add" />
+	</form>
+	<hr>
+
+	Note: enter the values to credit and debit
+	<form action="/Calculator1/third">
+		credits: <input name="credits" /> debits: <input name="debits" />
+		total sum:<input type="submit" value="SUM">
+	</form>
+
+	<hr>
+	note : enter p,t & r.
+	<form action="/Calculator1/simple">
+		enter principal amt:<input name="principalamount" /> enter time:<input
+			name="timeperiod" /> enter interest rate<input name="rate" /> <input
+			type="submit" value="si">
+	</form>
+	<hr>
+
+	<hr>
+	Note:Enter a number to check prime r not
+	<form action="/Calculator1/FourthPath">
+		Number: <input name="num" type="text" /> <input type="submit"
+			value="SEND">
+
+	</form>
+	<hr>
+	Note:Enter Principal,Rate of interest and Months to calculate EMI
+
+	<form action="/Calculator1/SixthPath">
+		Principal: <input name="prin" type="text" /> <br> Rate : <input
+			name="rate" type="text" /> <br> Note:Enter in months<br>
+		Num : <input name="no" type="text" /> <input type="submit"
+			value="SEND">
+
+	</form>
+	<hr>
+	Note: To find LCM, Input
+	<font color="red">two or more</font> numbers by saperating with comma
+	<form action="/Calculator1/SeventhPath">
+
+		Num one : <input name="num1" type="text" /> <br>Num two : <input
+			name="num2" type="text" /> Action <br> LCM<input type="radio"
+			name="action" value="lcm"> HCF<input type="radio"
+			name="action" value="hcf"> <input type="submit" value="SEND" />
+	</form>
+
+
+	<hr>
