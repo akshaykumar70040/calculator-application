@@ -21,7 +21,6 @@ public class FirstServlet extends HttpServlet {
 		resp.setContentType("text/html");
 		HttpSession session = req.getSession(false);
 		if (session != null) {
-			
 			System.out.println("Session is not null");
 			String user = (String) session.getAttribute("user");
 			System.out.println("First servlet got a request");
